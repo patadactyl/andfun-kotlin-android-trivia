@@ -36,7 +36,6 @@ class TitleFragment : Fragment() {
         val binding: FragmentTitleBinding = DataBindingUtil.inflate(
                 inflater, R.layout.fragment_title, container, false)
         binding.playButton.setOnClickListener (
-                // TODO (11) Replace action ID with actionTitleFragmentToGameFragment
                 // From TitleFragmentDirections
                 // We will have to switch this to using an anonymous function, since
                 // createNavigateOnClickListener cannot take NavDirections
